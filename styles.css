@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40;
+    padding: 0.75rem 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.navbar input {
+    background-color: #495057;
+    border: none;
+    color: #fff;
+}
+
+.navbar input::placeholder {
+    color: #ccc;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #e9ecef;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    padding-top: 1rem;
+}
+
+.sidebar .nav-link {
+    color: #495057;
+}
+
+.sidebar .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.sidebar-heading {
+    color: #6c757d;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem;
+}
+
+table {
+    margin-top: 1.5rem;
+}
+
+canvas {
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+canvas:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}
